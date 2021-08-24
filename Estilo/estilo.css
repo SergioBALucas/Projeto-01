@@ -10,6 +10,7 @@
     border: none;
     outline: none;
 }
+
 /* codigo de fonte anterior font-family: 'Roboto', sans-serif; */
 
 img {
@@ -32,7 +33,7 @@ h2 {
 p {
     font-size: 1em;
     color: #777;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* CABECALHO */
@@ -78,7 +79,7 @@ p {
     margin-top: 25px;
 }
 
-.cabecalho h2{
+.cabecalho h2 {
     font-family: 'Teko', sans-serif;
     float: left;
     color: #fff;
@@ -199,7 +200,7 @@ p {
 
 .avaliacao span {
     font-size: 1.3em;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .avaliacao img {
@@ -379,47 +380,48 @@ p {
 
 /* Contato */
 /* Titulo  */
-#principal{
+#principal {
     width: 100%;
     padding: 100px;
     float: left;
 }
 
-#principal  h1{
+#principal h1 {
     text-align: center;
     font-size: 60pt;
 }
 
-#principal p{
+#principal p {
     font-size: 18pt;
     text-align: center;
-    color:rgba(79, 50, 240, 1);
+    color: rgba(79, 50, 240, 1);
     font-family: 'Bebas Neue', cursive;
 }
+
 /* Formulario  */
-#principal form{
+#principal form {
     float: left;
     width: 100%;
     padding: 20px 8%;
 }
 
-#forms{
+#forms {
     margin-top: 100px;
     text-align: center;
 }
 
-#formulario{
+#formulario {
     border-bottom: 1px solid #4F32F0;
     margin-right: 50px;
     width: 300px;
-    margin-bottom:5%;
+    margin-bottom: 5%;
     font-size: 13pt;
     height: 20%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 7px;
 }
 
-#formulario2{
+#formulario2 {
     margin-right: 0px;
     border-bottom: 1px solid #4F32F0;
     width: 300px;
@@ -429,31 +431,31 @@ p {
     padding: 7px;
 }
 
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
-
-#formulario2::placeholder{
+#formulario::placeholder {
     font-size: 14pt;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     color: black;
 }
 
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
+#formulario2::placeholder {
+    font-size: 14pt;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+
+#formulario:focus {
+    background-color: rgba(79, 50, 240, 0.3);
     transition: 1s;
 }
 
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
+#formulario2:focus {
+    background-color: rgba(79, 50, 240, 0.3);
+    transition: 1s;
 }
 
-#comentario{
+#comentario {
     width: 50%;
     border: 1px solid #4F32F0;
     margin-top: 40px;
@@ -466,53 +468,55 @@ p {
     padding-left: 10px;
 }
 
-#principal button{
+#principal button {
     margin-top: 50px;
     margin: 20px auto;
-    padding:10px 30px;
+    padding: 10px 30px;
     background-color: #4e32f0be;
     color: white;
     cursor: pointer;
 }
-#principal button:hover{
+
+#principal button:hover {
     background-color: #2f0df3;
     transition: 1s;
 }
 
 /*Section Ouvidoria */
-#ouvidoria{
-    
-    padding:50px 15%;
+#ouvidoria {
+
+    padding: 50px 15%;
     float: left;
     width: 100%;
 }
 
-#ouvidoria h2{
+#ouvidoria h2 {
     font-size: 40pt;
 }
 
-#ouvidoria img{
-    width:29%;
+#ouvidoria img {
+    width: 29%;
     float: left;
 }
 
-#info-ouvi{
+#info-ouvi {
     float: right;
     padding: 50px 2%;
 
-    
+
 }
-#info-ouvi h3{
+
+#info-ouvi h3 {
     font-size: 20pt;
-    color:#4f32f0 ;
+    color: #4f32f0;
 
 }
 
-#info-ouvi a{
+#info-ouvi a {
     padding: 10px;
     font-size: 18pt;
     float: left;
-    color:black;
+    color: black;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -524,41 +528,42 @@ p {
     text-align: center;
     padding: 300px 0 50px 0;
     display: block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    ;
 }
 
-.titulo h2{
+.titulo h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5em;
 }
 
 .titulo p {
     font-family: 'Roboto', sans-serif;
-    font-size:0.9em;
+    font-size: 0.9em;
 }
 
 /* FOTOS DE PRODUTOS */
 
-.produtos{
+.produtos {
     margin: 5%;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10%;
-    
+
 }
 
 .preco {
     color: grey;
     font-size: 22px;
-  }
+}
 
 .produto {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto'sans-serif;
     width: 100%;
     border-radius: 10px 10px;
-  }
+}
 
 
 .produto button {
@@ -573,66 +578,71 @@ p {
     width: 100%;
     font-size: 18px;
     border-radius: 0px 0px 10px 10px;
-  }
+}
 
 .produto button:hover {
     opacity: 0.7;
-  }
+}
 
 .produto img {
     width: 175px;
     height: auto;
 }
 
-.produto a {    
-    color:#fff;     
-    padding:10px 15px 10px 15px;   
-    display:block;    
-    text-decoration: none;   
-}    
-.produto a:hover {    
-    color:#ffffff;    
-}    
-.produto li {    
-    background-color:#220BA3;          
-    display:block;     
-    float:left;    
+.produto a {
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.produto a:hover {
+    color: #ffffff;
+}
+
+.produto li {
+    background-color: #220BA3;
+    display: block;
+    float: left;
     width: inherit;
     height: auto;
-    color:#fff;     
-    padding:10px 15px 10px 15px;   
-    display:block;    
-    text-decoration: none; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
-}    
-.produto li:hover {    
-    background-color:#0072BA ;
-}  
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    display: block;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
-.produto ul {     
-    padding:0;     
-    margin:0    
-}    
-    
-.produto li ul li {    
-    float:none; 
+.produto li:hover {
+    background-color: #0072BA;
+}
+
+.produto ul {
+    padding: 0;
+    margin: 0
+}
+
+.produto li ul li {
+    float: none;
     display: block;
     width: auto;
-    height: auto;  
-}    
-.produto li ul {    
-    display:none;         
-    z-index:1;  
+    height: auto;
+}
+
+.produto li ul {
+    display: none;
+    z-index: 1;
     position: absolute;
-}    
-.produto li:hover ul {    
-    display:block;  
-} 
+}
+
+.produto li:hover ul {
+    display: block;
+}
 
 .rodapeprod {
     margin-top: 260px;
     width: 100%;
-    float:left;
+    float: left;
     background-color: #220BA3;
     padding: 25px 8%;
 }
@@ -643,36 +653,41 @@ p {
 }
 
 
-/* PRINCIPAL SERVIÇOS */ 
-.principal{
+/* PRINCIPAL SERVIÇOS */
+.principal {
     width: 100%;
     float: right;
     padding: 16px 8%;
 }
-.servicos{
+
+.servicos {
     width: 100%;
     float: left;
     padding: 0px 20px 40px 0px;
 }
-.servicos h2{
+
+.servicos h2 {
     margin-bottom: 40px;
 }
-.servicos img{
+
+.servicos img {
     width: 30%;
     float: left;
     border-radius: 4px;
     margin: 0 15px 0;
 }
-.servicos p{
+
+.servicos p {
     text-align: justify;
     font-size: 1.2em;
 }
-.tamanho{
+
+.tamanho {
     width: 200px;
     height: 270px;
 }
 
-@media screen and (max-width:320px ) {
+@media screen and (max-width:320px) {
 
     .cabecalho {
         width: 100%;
@@ -702,7 +717,7 @@ p {
         float: left;
         padding: 15px 10px;
         border-radius: 10px 0px 0px 10px;
-        margin-top:0;
+        margin-top: 0;
         margin-bottom: 50px;
     }
 
@@ -718,7 +733,7 @@ p {
         margin-bottom: 50px;
     }
 
-    .cabecalho h2{
+    .cabecalho h2 {
         font-family: 'Teko', sans-serif;
         float: left;
         color: #fff;
@@ -726,9 +741,9 @@ p {
         margin-top: 3px;
         margin-left: 25px;
     }
-    
+
     /* MENU */
-    
+
     .menu {
         width: 100%;
         float: left;
@@ -736,214 +751,217 @@ p {
         padding: 0;
         margin-bottom: 25px;
     }
-    
+
     .menu li {
         float: left;
         margin-top: 20px;
         margin-bottom: 10px;
-        
+
     }
-    
+
     .menu li a {
         color: #9d9d9d;
         padding: 18px;
     }
-    
+
     .menu li a:hover {
         color: #fff;
         background-color: #4F32F0;
         max-height: 100%;
         transition: 0.5s;
     }
-    
+
     /* SOCIAL ICONS */
-    
+
     .social-icons {
         float: left;
         margin-top: 20px;
         margin-bottom: 20px;
         font-size: 11pt;
     }
-    
+
     .social-icons a {
-        
+
         color: #fff;
         float: left;
         margin-left: 25px;
     }
-    
+
     .social-icons .fa-facebook-square:hover {
         color: #3b5998;
     }
-    
+
     .social-icons .fa-twitter-square:hover {
         color: #1DA1F2;
     }
-    
+
     .social-icons .fa-instagram:hover {
         background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     }
-    
+
     .social-icons .fa-envelope:hover {
         color: yellow;
     }
-    
+
     .social-icons .fa-google:hover {
         color: #FF0000;
     }
-    
+
     .social-icons .fa-youtube-square:hover {
         color: #FF0000;
     }
-    
+
     .social-icons .fa-linkedin:hover {
         color: #0077b5;
     }
-    
+
 
     /* Contato */
-/* Titulo  */
-#principal{
-    width: 100%;
-    float: left;
-    padding: 90px 10px;
+    /* Titulo  */
+    #principal {
+        width: 100%;
+        float: left;
+        padding: 90px 10px;
+    }
+
+    #principal h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    #principal p {
+        font-size: 13pt;
+        text-align: center;
+        color: rgba(79, 50, 240, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    /* Formulario  */
+    #principal form {
+        float: left;
+        width: 100%;
+
+    }
+
+    #forms {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #formulario {
+        border-bottom: 1px solid #4F32F0;
+
+        width: 100%;
+        margin-bottom: 5%;
+        font-size: 13pt;
+
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario2 {
+        margin-right: 0px;
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario2::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #formulario2:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #comentario {
+        width: 100%;
+        border: 1px solid #4F32F0;
+        margin-top: 40px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+
+    #principal button {
+        margin-top: 50px;
+        margin: 20px auto;
+        padding: 10px 30px;
+        background-color: #4e32f0be;
+        color: white;
+        cursor: pointer;
+    }
+
+    #principal button:hover {
+        background-color: #2f0df3;
+        transition: 1s;
+    }
+
+    /*Section Ouvidoria */
+    #ouvidoria {
+
+        float: left;
+        width: 100%;
+    }
+
+    #ouvidoria h2 {
+        font-size: 40pt;
+    }
+
+    #ouvidoria img {
+        width: 50%;
+        float: left;
+    }
+
+    #info-ouvi {
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    #info-ouvi h3 {
+        font-size: 20pt;
+        color: #4f32f0;
+        margin-bottom: 10px;
+
+    }
+
+    #info-ouvi a {
+        padding: 10px;
+        font-size: 1pt;
+        float: left;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+
+
 }
 
-#principal  h1{
-    text-align: center;
-    font-size: 40pt;
-}
-
-#principal p{
-    font-size: 13pt;
-    text-align: center;
-    color:rgba(79, 50, 240, 1);
-    font-family: 'Bebas Neue', cursive;
-}
-/* Formulario  */
-#principal form{
-    float: left;
-    width: 100%;
-    
-}
-
-#forms{
-    margin-top: 100px;
-    text-align: center;
-}
-
-#formulario{
-    border-bottom: 1px solid #4F32F0;
-    
-    width: 100%;
-    margin-bottom:5%;
-    font-size: 13pt;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario2{
-    margin-right: 0px;
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
-
-#formulario2::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-}
-
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;
-}
-
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
-}
-
-#comentario{
-    width: 100%;
-    border: 1px solid #4F32F0;
-    margin-top: 40px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-}
-
-#principal button{
-    margin-top: 50px;
-    margin: 20px auto;
-    padding:10px 30px;
-    background-color: #4e32f0be;
-    color: white;
-    cursor: pointer;
-}
-#principal button:hover{
-    background-color: #2f0df3;
-    transition: 1s;
-}
-
-/*Section Ouvidoria */
-#ouvidoria{
-    
-    float: left;
-    width: 100%;
-}
-
-#ouvidoria h2{
-    font-size: 40pt;
-}
-
-#ouvidoria img{
-    width:50%;
-    float: left;
-}
-
-#info-ouvi{
-    width: 100%;
-    text-align: center;
-
-    
-}
-#info-ouvi h3{
-    font-size: 20pt;
-    color:#4f32f0 ;
-    margin-bottom: 10px;
-
-}
-
-#info-ouvi a{
-    padding: 10px;
-    font-size: 1pt;
-    float: left;
-    color:black;
-    font-family: 'Bebas Neue', cursive;
-}
-
-    
-
-}
-
-@media screen and (max-width:375px ) {
+@media screen and (max-width:375px) {
 
 
 
@@ -955,10 +973,10 @@ p {
         padding-bottom: initial;
     }
 
-    .logo{
+    .logo {
         display: flex;
         justify-content: center;
-        
+
     }
 
     .logo a {
@@ -968,8 +986,8 @@ p {
         background-image: url(../Imagem/macabro.jpg);
         font-size: 0;
         border-radius: 10px;
-       
-       
+
+
     }
 
     .cabecalho form {
@@ -983,7 +1001,7 @@ p {
         float: left;
         padding: 15px 10px;
         border-radius: 10px 0px 0px 10px;
-        margin-top:0;
+        margin-top: 0;
         margin-bottom: 50px;
     }
 
@@ -998,23 +1016,24 @@ p {
         margin-top: 0;
         margin-bottom: 50px;
     }
-.cabecalho a {
-    display: flex;
-    justify-content: center;
-}
-   
-    .cabecalho h2{
+
+    .cabecalho a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho h2 {
         font-family: 'Teko', sans-serif;
         color: #fff;
         font-size: 6em;
         margin-top: 3px;
         text-align: center;
-        
-        
+
+
     }
-    
+
     /* MENU */
-    
+
     .menu {
         width: 100%;
         float: left;
@@ -1022,236 +1041,243 @@ p {
         padding: 0px 20px;
         margin-bottom: 25px;
     }
-    
+
     .menu li {
         float: left;
         margin-top: 20px;
         margin-bottom: 10px;
     }
-    
+
     .menu li a {
         color: #9d9d9d;
         padding: 18px;
     }
-    
+
     .menu li a:hover {
         color: #fff;
         background-color: #4F32F0;
         max-height: 100%;
         transition: 0.5s;
     }
-    
+
     /* SOCIAL ICONS */
-    
+
     .social-icons {
-        float:left;
+        float: left;
         margin-top: 20px;
-        
+
         margin-bottom: 20px;
     }
-    
+
     .social-icons a {
         color: #fff;
         float: left;
         margin-left: 25px;
     }
-    
+
     .social-icons .fa-facebook-square:hover {
         color: #3b5998;
     }
-    
+
     .social-icons .fa-twitter-square:hover {
         color: #1DA1F2;
     }
-    
+
     .social-icons .fa-instagram:hover {
         background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     }
-    
+
     .social-icons .fa-envelope:hover {
         color: yellow;
     }
-    
+
     .social-icons .fa-google:hover {
         color: #FF0000;
     }
-    
+
     .social-icons .fa-youtube-square:hover {
         color: #FF0000;
     }
-    
+
     .social-icons .fa-linkedin:hover {
         color: #0077b5;
     }
-    
 
 
-/* Titulo  */
-#principal{
-    width: 100%;
-    float: left;
-    padding: 90px 10px;
+
+    /* Titulo  */
+    #principal {
+        width: 100%;
+        float: left;
+        padding: 90px 10px;
+    }
+
+    #principal h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    #principal p {
+        font-size: 13pt;
+        text-align: center;
+        color: rgba(79, 50, 240, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    /* Formulario  */
+    #principal form {
+        float: left;
+        width: 100%;
+
+    }
+
+    #forms {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #formulario {
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        margin-bottom: 5%;
+        font-size: 13pt;
+
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario2 {
+        margin-right: 0px;
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario2::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #formulario2:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #comentario {
+        width: 100%;
+        border: 1px solid #4F32F0;
+        margin-top: 40px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+
+    #principal button {
+        margin-top: 50px;
+        margin: 20px auto;
+        padding: 10px 30px;
+        background-color: #4e32f0be;
+        color: white;
+        cursor: pointer;
+    }
+
+    #principal button:hover {
+        background-color: #2f0df3;
+        transition: 1s;
+    }
+
+    /*Section Ouvidoria */
+    #ouvidoria {
+        padding: 50px;
+        float: left;
+        width: 100%;
+    }
+
+    #ouvidoria h2 {
+        font-size: 40pt;
+    }
+
+    #ouvidoria img {
+        width: 50%;
+        float: left;
+    }
+
+    #info-ouvi {
+        width: 100%;
+        padding: 50px 15%;
+        text-align: center;
+
+
+    }
+
+    #info-ouvi h3 {
+        font-size: 20pt;
+        color: #4f32f0;
+        margin-bottom: 10px;
+
+    }
+
+    #info-ouvi a {
+        padding: 10px;
+        font-size: 13pt;
+        float: left;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+
+    }
 }
 
-#principal  h1{
-    text-align: center;
-    font-size: 40pt;
-}
+@media screen and (max-width:425px) {
 
-#principal p{
-    font-size: 13pt;
-    text-align: center;
-    color:rgba(79, 50, 240, 1);
-    font-family: 'Bebas Neue', cursive;
-}
-/* Formulario  */
-#principal form{
-    float: left;
-    width: 100%;
-    
-}
-
-#forms{
-    margin-top: 100px;
-    text-align: center;
-}
-
-#formulario{
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    margin-bottom:5%;
-    font-size: 13pt;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario2{
-    margin-right: 0px;
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
-
-#formulario2::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-}
-
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;
-}
-
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
-}
-
-#comentario{
-    width: 100%;
-    border: 1px solid #4F32F0;
-    margin-top: 40px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-}
-
-#principal button{
-    margin-top: 50px;
-    margin: 20px auto;
-    padding:10px 30px;
-    background-color: #4e32f0be;
-    color: white;
-    cursor: pointer;
-}
-#principal button:hover{
-    background-color: #2f0df3;
-    transition: 1s;
-}
-
-/*Section Ouvidoria */
-#ouvidoria{
-    padding:50px;
-    float: left;
-    width: 100%;
-}
-
-#ouvidoria h2{
-    font-size: 40pt;
-}
-
-#ouvidoria img{
-    width:50%;
-    float: left;
-}
-
-#info-ouvi{
-    width: 100%;
-    padding: 50px 15%;
-    text-align: center;
-
-    
-}
-#info-ouvi h3{
-    font-size: 20pt;
-    color:#4f32f0 ;
-    margin-bottom: 10px;
-
-}
-
-#info-ouvi a{
-    padding: 10px;
-    font-size: 13pt;
-    float: left;
-    color:black;
-    font-family: 'Bebas Neue', cursive;
-    
-}
-}
-
-@media screen and (max-width:425px ) {
-  
-    .servicos{
+    .servicos {
         width: 100%;
         float: left;
         padding: 0px 20px 40px 0px;
     }
-    .servicos h2{
+
+    .servicos h2 {
         margin-bottom: 40px;
     }
-    .servicos img{
+
+    .servicos img {
         width: 100%;
         float: left;
         border-radius: 4px;
         margin: 0 15px 0;
     }
-    .servicos p{
+
+    .servicos p {
         text-align: center;
         font-size: 1.2em;
     }
-    .tamanho{
+
+    .tamanho {
         width: 200px;
         height: 270px;
 
     }
-    
-    .produtos{
+
+    .produtos {
         margin: 5% !important;
         display: grid !important;
         grid-template-columns: 1fr !important;
@@ -1279,7 +1305,7 @@ p {
         padding-bottom: initial;
     }
 
-    .logo{
+    .logo {
         display: flex;
         justify-content: center;
     }
@@ -1304,7 +1330,7 @@ p {
         float: left;
         padding: 15px 10px;
         border-radius: 10px 0px 0px 10px;
-        margin-top:0;
+        margin-top: 0;
         margin-bottom: 50px;
     }
 
@@ -1320,7 +1346,7 @@ p {
         margin-bottom: 50px;
     }
 
-    .cabecalho h2{
+    .cabecalho h2 {
         font-family: 'Teko', sans-serif;
         float: left;
         color: #fff;
@@ -1329,9 +1355,9 @@ p {
         margin-left: 25px;
         text-align: center;
     }
-    
+
     /* MENU */
-    
+
     .menu {
         width: 100%;
         display: flex;
@@ -1342,33 +1368,33 @@ p {
         margin-bottom: 25px;
     }
 
-  .menu ul{
-      justify-content: center;
-      display: flex;
-  }
-    
+    .menu ul {
+        justify-content: center;
+        display: flex;
+    }
+
     .menu li {
-    
+
         margin-top: 20px;
         margin-bottom: 10px;
-        
-        
+
+
     }
-    
+
     .menu li a {
         color: #9d9d9d;
         padding: 18px;
     }
-    
+
     .menu li a:hover {
         color: #fff;
         background-color: #4F32F0;
         max-height: 100%;
         transition: 0.5s;
     }
-    
+
     /* SOCIAL ICONS */
-    
+
     .social-icons {
         display: flex;
         margin-top: 20px;
@@ -1376,800 +1402,845 @@ p {
         font-size: 11pt;
         justify-content: center;
     }
-    
+
     .social-icons a {
-        
+
         color: #fff;
         float: left;
         margin-left: 25px;
     }
-    
+
     .social-icons .fa-facebook-square:hover {
         color: #3b5998;
     }
-    
+
     .social-icons .fa-twitter-square:hover {
         color: #1DA1F2;
     }
-    
+
     .social-icons .fa-instagram:hover {
         background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     }
-    
+
     .social-icons .fa-envelope:hover {
         color: yellow;
     }
-    
+
     .social-icons .fa-google:hover {
         color: #FF0000;
     }
-    
+
     .social-icons .fa-youtube-square:hover {
         color: #FF0000;
     }
-    
+
     .social-icons .fa-linkedin:hover {
         color: #0077b5;
     }
 
-/* Titulo  */
-#principal{
-    width: 100%;
-    float: left;
-    padding: 90px 10px;
+    /* Titulo  */
+    #principal {
+        width: 100%;
+        float: left;
+        padding: 90px 10px;
+    }
+
+    #principal h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    #principal p {
+        font-size: 13pt;
+        text-align: center;
+        color: rgba(79, 50, 240, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    /* Formulario  */
+    #principal form {
+        float: left;
+        width: 100%;
+
+    }
+
+    #forms {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #formulario {
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        margin-bottom: 5%;
+        font-size: 13pt;
+
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario2 {
+        margin-right: 0px;
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario2::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #formulario2:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #comentario {
+        width: 100%;
+        border: 1px solid #4F32F0;
+        margin-top: 40px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+
+    #principal button {
+        margin-top: 50px;
+        margin: 20px auto;
+        padding: 10px 30px;
+        background-color: #4e32f0be;
+        color: white;
+        cursor: pointer;
+    }
+
+    #principal button:hover {
+        background-color: #2f0df3;
+        transition: 1s;
+    }
+
+    /*Section Ouvidoria */
+    #ouvidoria {
+        text-align: center;
+        padding: 50px;
+        float: left;
+        width: 100%;
+    }
+
+    #ouvidoria h2 {
+        font-size: 40pt;
+    }
+
+    #ouvidoria img {
+        width: 80%;
+
+        margin: auto 10%;
+    }
+
+    #info-ouvi {
+        width: 100%;
+        padding: 50px 15%;
+        text-align: center;
+
+
+    }
+
+    #info-ouvi h3 {
+        font-size: 20pt;
+        color: #4f32f0;
+        margin-bottom: 10px;
+
+    }
+
+    #info-ouvi a {
+        padding: 10px;
+        font-size: 13pt;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+
+
 }
 
-#principal  h1{
-    text-align: center;
-    font-size: 40pt;
-}
+@media screen and (max-width:768px) {
 
-#principal p{
-    font-size: 13pt;
-    text-align: center;
-    color:rgba(79, 50, 240, 1);
-    font-family: 'Bebas Neue', cursive;
-}
-/* Formulario  */
-#principal form{
-    float: left;
-    width: 100%;
-    
-}
-
-#forms{
-    margin-top: 100px;
-    text-align: center;
-}
-
-#formulario{
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    margin-bottom:5%;
-    font-size: 13pt;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario2{
-    margin-right: 0px;
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
-
-#formulario2::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-}
-
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;
-}
-
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
-}
-
-#comentario{
-    width: 100%;
-    border: 1px solid #4F32F0;
-    margin-top: 40px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-}
-
-#principal button{
-    margin-top: 50px;
-    margin: 20px auto;
-    padding:10px 30px;
-    background-color: #4e32f0be;
-    color: white;
-    cursor: pointer;
-}
-#principal button:hover{
-    background-color: #2f0df3;
-    transition: 1s;
-}
-
-/*Section Ouvidoria */
-#ouvidoria{
-    text-align: center;
-    padding:50px;
-    float: left;
-    width: 100%;
-}
-
-#ouvidoria h2{
-    font-size: 40pt;
-}
-
-#ouvidoria img{
-    width:80%;
-    
-    margin: auto 10%;
-}
-
-#info-ouvi{
-    width: 100%;
-    padding: 50px 15%;
-    text-align: center;
-
-    
-}
-#info-ouvi h3{
-    font-size: 20pt;
-    color:#4f32f0 ;
-    margin-bottom: 10px;
-
-}
-
-#info-ouvi a{
-    padding: 10px;
-    font-size: 13pt;
-    color:black;
-    font-family: 'Bebas Neue', cursive;
-
-}
-
-    
-
-}
-
-@media screen and (max-width:768px ) {
-
-    .principal{
+    .principal {
         width: 100%;
         float: right;
         padding: 16px 8%;
     }
-    .servicos{
+
+    .servicos {
         width: 100%;
         float: left;
         padding: 0px 20px 40px 0px;
     }
-    .servicos h2{
+
+    .servicos h2 {
         margin-bottom: 40px;
     }
-    .servicos img{
+
+    .servicos img {
         width: 100%;
         float: left;
         border-radius: 4px;
         margin: 0 15px 0;
     }
-    .servicos p{
+
+    .servicos p {
         text-align: center;
         font-size: 1.2em;
     }
-    .tamanho{
+
+    .tamanho {
         width: 200px;
         height: 270px;
 
     }
 
     /* Contato */
-/* Titulo  */
-#principal{
-    width: 100%;
-    float: left;
-    padding: 90px 10px;
-}
+    /* Titulo  */
+    #principal {
+        width: 100%;
+        float: left;
+        padding: 90px 10px;
+    }
 
-#principal  h1{
-    text-align: center;
-    font-size: 40pt;
-}
+    #principal h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
 
-#principal p{
-    font-size: 13pt;
-    text-align: center;
-    color:rgba(79, 50, 240, 1);
-    font-family: 'Bebas Neue', cursive;
-}
-/* Formulario  */
-#principal form{
-    float: left;
-    width: 100%;
-    
-}
+    #principal p {
+        font-size: 13pt;
+        text-align: center;
+        color: rgba(79, 50, 240, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
 
-#forms{
-    margin-top: 100px;
-    text-align: center;
-}
+    /* Formulario  */
+    #principal form {
+        float: left;
+        width: 100%;
 
-#formulario{
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    margin-bottom:5%;
-    font-size: 13pt;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
+    }
 
-#formulario2{
-    margin-right: 0px;
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
+    #forms {
+        margin-top: 100px;
+        text-align: center;
+    }
 
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
+    #formulario {
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        margin-bottom: 5%;
+        font-size: 13pt;
 
-#formulario2::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-}
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
 
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;
-}
+    #formulario2 {
+        margin-right: 0px;
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
 
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
-}
+    #formulario::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
 
-#comentario{
-    width: 100%;
-    border: 1px solid #4F32F0;
-    margin-top: 40px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-}
+    #formulario2::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
 
-#principal button{
-    margin-top: 50px;
-    margin: 20px auto;
-    padding:10px 30px;
-    background-color: #4e32f0be;
-    color: white;
-    cursor: pointer;
-}
-#principal button:hover{
-    background-color: #2f0df3;
-    transition: 1s;
-}
+    #formulario:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
 
-/*Section Ouvidoria */
-#ouvidoria{
-    text-align: center;
-    padding:50px;
-    float: left;
-    width: 100%;
-}
+    #formulario2:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
 
-#ouvidoria h2{
-    font-size: 40pt;
-}
+    #comentario {
+        width: 100%;
+        border: 1px solid #4F32F0;
+        margin-top: 40px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
 
-#ouvidoria img{
-    width:40%;
-    margin: auto 33%;
-    
-}
+    #principal button {
+        margin-top: 50px;
+        margin: 20px auto;
+        padding: 10px 30px;
+        background-color: #4e32f0be;
+        color: white;
+        cursor: pointer;
+    }
 
-#info-ouvi{
-    width: 100%;
-    padding: 50px 20%;
-    text-align: center;
+    #principal button:hover {
+        background-color: #2f0df3;
+        transition: 1s;
+    }
 
-    
-}
-#info-ouvi h3{
-    font-size: 20pt;
-    color:#4f32f0 ;
-    margin-bottom: 10px;
+    /*Section Ouvidoria */
+    #ouvidoria {
+        text-align: center;
+        padding: 50px;
+        float: left;
+        width: 100%;
+    }
 
-}
+    #ouvidoria h2 {
+        font-size: 40pt;
+    }
 
-#info-ouvi a{
-    padding: 10px;
-    font-size: 18pt;
-    color:black;
-    font-family: 'Bebas Neue', cursive;
+    #ouvidoria img {
+        width: 40%;
+        margin: auto 33%;
 
-}
+    }
 
-    
+    #info-ouvi {
+        width: 100%;
+        padding: 50px 20%;
+        text-align: center;
 
-}
 
-@media screen and (max-width:784px ) {
+    }
 
-   
-/* Titulo  */
+    #info-ouvi h3 {
+        font-size: 20pt;
+        color: #4f32f0;
+        margin-bottom: 10px;
 
-.cabecalho {
-    width: 100%;
-    float: left;
-    padding: 50px 8%;
-    background-image: linear-gradient(to right, #4F32F0, #8873FF);
-    padding-bottom: initial;
-}
+    }
 
-.logo{
-    display: flex;
-    justify-content: center;
-}
+    #info-ouvi a {
+        padding: 10px;
+        font-size: 18pt;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
 
-.logo a {
-    width: 84px;
-    height: 97px;
-    float: left;
-    background-image: url(../Imagem/macabro.jpg);
-    font-size: 0;
-    border-radius: 10px;
-}
+    }
 
-.cabecalho form {
-    width: 100%;
-    float: right;
-    margin-top: 0;
-}
 
-.cabecalho input[type="text"] {
-    width: 80%;
-    float: left;
-    padding: 15px 10px;
-    border-radius: 10px 0px 0px 10px;
-    margin-top:0;
-    margin-bottom: 50px;
-}
-
-.cabecalho button {
-    width: 20%;
-    float: right;
-    padding: 15px 10px;
-    border-radius: 0px 10px 10px 0px;
-    background-color: #4F32F0;
-    color: white;
-    cursor: pointer;
-    margin-top: 0;
-    margin-bottom: 50px;
-}
-
-.cabecalho h2{
-    font-family: 'Teko', sans-serif;
-    float: left;
-    color: #fff;
-    width: 100%;
-    font-size: 6em;
-    margin-top: 3px;
-    margin-left: 25px;
-    text-align: center;
-}
-
-/* MENU */
-
-.menu {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #111;
-    padding: 0;
-    margin-bottom: 25px;
-}
-
-.menu ul{
-  justify-content: center;
-  display: flex;
-}
-
-.menu li {
-
-    margin-top: 20px;
-    margin-bottom: 10px;
-    
-    
-}
-
-.menu li a {
-    color: #9d9d9d;
-    padding: 18px;
-}
-
-.menu li a:hover {
-    color: #fff;
-    background-color: #4F32F0;
-    max-height: 100%;
-    transition: 0.5s;
-}
-
-/* SOCIAL ICONS */
-
-.social-icons {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 11pt;
-    justify-content: center;
-}
-
-.social-icons a {
-    
-    color: #fff;
-    float: left;
-    margin-left: 25px;
-}
-
-.social-icons .fa-facebook-square:hover {
-    color: #3b5998;
-}
-
-.social-icons .fa-twitter-square:hover {
-    color: #1DA1F2;
-}
-
-.social-icons .fa-instagram:hover {
-    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
-
-.social-icons .fa-envelope:hover {
-    color: yellow;
-}
-
-.social-icons .fa-google:hover {
-    color: #FF0000;
-}
-
-.social-icons .fa-youtube-square:hover {
-    color: #FF0000;
-}
-
-.social-icons .fa-linkedin:hover {
-    color: #0077b5;
-}
-#principal{
-    width: 100%;
-    float: left;
-    padding: 90px 10px;
-}
-
-#principal  h1{
-    text-align: center;
-    font-size: 40pt;
-}
-
-#principal p{
-    font-size: 13pt;
-    text-align: center;
-    color:rgba(79, 50, 240, 1);
-    font-family: 'Bebas Neue', cursive;
-}
-/* Formulario  */
-#principal form{
-    float: left;
-    width: 100%;
-    
-}
-
-#forms{
-    margin-top: 100px;
-    text-align: center;
-}
-
-#formulario{
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    margin-bottom:5%;
-    font-size: 13pt;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario2{
-    margin-right: 0px;
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
-
-#formulario2::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-}
-
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;
-}
-
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
-}
-
-#comentario{
-    width: 100%;
-    border: 1px solid #4F32F0;
-    margin-top: 40px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-}
-
-#principal button{
-    margin-top: 50px;
-    margin: 20px auto;
-    padding:10px 30px;
-    background-color: #4e32f0be;
-    color: white;
-    cursor: pointer;
-}
-#principal button:hover{
-    background-color: #2f0df3;
-    transition: 1s;
-}
-
-/*Section Ouvidoria */
-#ouvidoria{
-    text-align: center;
-    padding:50px;
-    float: left;
-    width: 100%;
-}
-
-#ouvidoria h2{
-    font-size: 40pt;
-}
-
-#ouvidoria img{
-    width:40%;
-    margin: auto 33%;
-    
-}
-
-#info-ouvi{
-    width: 100%;
-    padding: 50px 20%;
-    text-align: center;
-
-    
-}
-#info-ouvi h3{
-    font-size: 20pt;
-    color:#4f32f0 ;
-    margin-bottom: 10px;
 
 }
 
-#info-ouvi a{
-    padding: 10px;
-    font-size: 18pt;
-    color:black;
-    font-family: 'Bebas Neue', cursive;
+@media screen and (max-width:784px) {
+
+
+    /* Titulo  */
+
+    .cabecalho {
+        width: 100%;
+        float: left;
+        padding: 50px 8%;
+        background-image: linear-gradient(to right, #4F32F0, #8873FF);
+        padding-bottom: initial;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo a {
+        width: 84px;
+        height: 97px;
+        float: left;
+        background-image: url(../Imagem/macabro.jpg);
+        font-size: 0;
+        border-radius: 10px;
+    }
+
+    .cabecalho form {
+        width: 100%;
+        float: right;
+        margin-top: 0;
+    }
+
+    .cabecalho input[type="text"] {
+        width: 80%;
+        float: left;
+        padding: 15px 10px;
+        border-radius: 10px 0px 0px 10px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .cabecalho button {
+        width: 20%;
+        float: right;
+        padding: 15px 10px;
+        border-radius: 0px 10px 10px 0px;
+        background-color: #4F32F0;
+        color: white;
+        cursor: pointer;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .cabecalho h2 {
+        font-family: 'Teko', sans-serif;
+        float: left;
+        color: #fff;
+        width: 100%;
+        font-size: 6em;
+        margin-top: 3px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    /* MENU */
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #111;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .menu ul {
+        justify-content: center;
+        display: flex;
+    }
+
+    .menu li {
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .menu li a {
+        color: #9d9d9d;
+        padding: 18px;
+    }
+
+    .menu li a:hover {
+        color: #fff;
+        background-color: #4F32F0;
+        max-height: 100%;
+        transition: 0.5s;
+    }
+
+    /* SOCIAL ICONS */
+
+    .social-icons {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 11pt;
+        justify-content: center;
+    }
+
+    .social-icons a {
+
+        color: #fff;
+        float: left;
+        margin-left: 25px;
+    }
+
+    .social-icons .fa-facebook-square:hover {
+        color: #3b5998;
+    }
+
+    .social-icons .fa-twitter-square:hover {
+        color: #1DA1F2;
+    }
+
+    .social-icons .fa-instagram:hover {
+        background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+
+    .social-icons .fa-envelope:hover {
+        color: yellow;
+    }
+
+    .social-icons .fa-google:hover {
+        color: #FF0000;
+    }
+
+    .social-icons .fa-youtube-square:hover {
+        color: #FF0000;
+    }
+
+    .social-icons .fa-linkedin:hover {
+        color: #0077b5;
+    }
+
+    #principal {
+        width: 100%;
+        float: left;
+        padding: 90px 10px;
+    }
+
+    #principal h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    #principal p {
+        font-size: 13pt;
+        text-align: center;
+        color: rgba(79, 50, 240, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    /* Formulario  */
+    #principal form {
+        float: left;
+        width: 100%;
+
+    }
+
+    #forms {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #formulario {
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        margin-bottom: 5%;
+        font-size: 13pt;
+
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario2 {
+        margin-right: 0px;
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario2::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #formulario2:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #comentario {
+        width: 100%;
+        border: 1px solid #4F32F0;
+        margin-top: 40px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+
+    #principal button {
+        margin-top: 50px;
+        margin: 20px auto;
+        padding: 10px 30px;
+        background-color: #4e32f0be;
+        color: white;
+        cursor: pointer;
+    }
+
+    #principal button:hover {
+        background-color: #2f0df3;
+        transition: 1s;
+    }
+
+    /*Section Ouvidoria */
+    #ouvidoria {
+        text-align: center;
+        padding: 50px;
+        float: left;
+        width: 100%;
+    }
+
+    #ouvidoria h2 {
+        font-size: 40pt;
+    }
+
+    #ouvidoria img {
+        width: 40%;
+        margin: auto 33%;
+
+    }
+
+    #info-ouvi {
+        width: 100%;
+        padding: 50px 20%;
+        text-align: center;
+
+
+    }
+
+    #info-ouvi h3 {
+        font-size: 20pt;
+        color: #4f32f0;
+        margin-bottom: 10px;
+
+    }
+
+    #info-ouvi a {
+        padding: 10px;
+        font-size: 18pt;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+
 
 }
 
-    
+@media screen and (max-width:768px) {
 
-}
-
-@media screen and (max-width:768px ) {
-    
 
     /* Contato */
-/* Titulo  */
-#principal{
-    width: 100%;
-    float: left;
-    padding: 90px 10px;
+    /* Titulo  */
+    #principal {
+        width: 100%;
+        float: left;
+        padding: 90px 10px;
+    }
+
+    #principal h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    #principal p {
+        font-size: 13pt;
+        text-align: center;
+        color: rgba(79, 50, 240, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    /* Formulario  */
+    #principal form {
+        float: left;
+        width: 100%;
+    }
+
+    #forms {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #formulario {
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        margin-bottom: 5%;
+        font-size: 13pt;
+
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario2 {
+        margin-right: 0px;
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
+
+    #formulario::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario2::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
+
+    #formulario:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #formulario2:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
+
+    #comentario {
+        width: 100%;
+        border: 1px solid #4F32F0;
+        margin-top: 40px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+
+    #principal button {
+        margin-top: 50px;
+        margin: 20px auto;
+        padding: 10px 30px;
+        background-color: #4e32f0be;
+        color: white;
+        cursor: pointer;
+    }
+
+    #principal button:hover {
+        background-color: #2f0df3;
+        transition: 1s;
+    }
+
+    /*Section Ouvidoria */
+    #ouvidoria {
+        text-align: center;
+        padding: 50px;
+        float: left;
+        width: 100%;
+    }
+
+    #ouvidoria h2 {
+        font-size: 40pt;
+    }
+
+    #ouvidoria img {
+        width: 40%;
+        margin: auto 33%;
+    }
+
+    #info-ouvi {
+        width: 100%;
+        padding: 50px 20%;
+        text-align: center;
+    }
+
+    #info-ouvi h3 {
+        font-size: 20pt;
+        color: #4f32f0;
+        margin-bottom: 10px;
+    }
+
+    #info-ouvi a {
+        padding: 10px;
+        font-size: 18pt;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .sobre {
+        width: auto;
+    }
+
+    .sobre p {
+        font-size: 1em;
+    }
+
+    .onde-estamos {
+        width: auto;
+    }
+
+    .nossos-produtos {
+        width: auto;
+    }
+
+    .newsletter input {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .newsletter button {
+        width: 80%;
+        margin-right: 10%;
+    }
+
+    .avaliacao p {
+        font-size: 1em;
+        padding: 0;
+        width: 100%;
+    }
+
+    .avaliacao img {
+        display: none;
+    }
 }
 
-#principal  h1{
-    text-align: center;
-    font-size: 40pt;
-}
+@media screen and (max-width:1024px) {
 
-#principal p{
-    font-size: 13pt;
-    text-align: center;
-    color:rgba(79, 50, 240, 1);
-    font-family: 'Bebas Neue', cursive;
-}
-/* Formulario  */
-#principal form{
-    float: left;
-    width: 100%;
-    
-}
-
-#forms{
-    margin-top: 100px;
-    text-align: center;
-}
-
-#formulario{
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    margin-bottom:5%;
-    font-size: 13pt;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario2{
-    margin-right: 0px;
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
-
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
-
-#formulario2::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-}
-
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;
-}
-
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
-}
-
-#comentario{
-    width: 100%;
-    border: 1px solid #4F32F0;
-    margin-top: 40px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-}
-
-#principal button{
-    margin-top: 50px;
-    margin: 20px auto;
-    padding:10px 30px;
-    background-color: #4e32f0be;
-    color: white;
-    cursor: pointer;
-}
-#principal button:hover{
-    background-color: #2f0df3;
-    transition: 1s;
-}
-
-/*Section Ouvidoria */
-#ouvidoria{
-    text-align: center;
-    padding:50px;
-    float: left;
-    width: 100%;
-}
-
-#ouvidoria h2{
-    font-size: 40pt;
-}
-
-#ouvidoria img{
-    width:40%;
-    margin: auto 33%;
-    
-}
-
-#info-ouvi{
-    width: 100%;
-    padding: 50px 20%;
-    text-align: center;
-
-    
-}
-#info-ouvi h3{
-    font-size: 20pt;
-    color:#4f32f0 ;
-    margin-bottom: 10px;
-
-}
-
-#info-ouvi a{
-    padding: 10px;
-    font-size: 18pt;
-    color:black;
-    font-family: 'Bebas Neue', cursive;
-
-}
-
-    
-
-}
-
-@media screen and (max-width:1024px ) {
-
-    .produtos{
+    .produtos {
         margin: 5%;
-        display:grid;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2%;
     }
@@ -2187,288 +2258,287 @@ p {
         color: #fff;
     }
 
-   
-/* Titulo  */
 
-.cabecalho {
-    width: 100%;
-    float: left;
-    padding: 50px 8%;
-    background-image: linear-gradient(to right, #4F32F0, #8873FF);
-    padding-bottom: initial;
-}
+    /* Titulo  */
 
-.logo{
-    display: flex;
-    justify-content: center;
-}
+    .cabecalho {
+        width: 100%;
+        float: left;
+        padding: 50px 8%;
+        background-image: linear-gradient(to right, #4F32F0, #8873FF);
+        padding-bottom: initial;
+    }
 
-.logo a {
-    width: 84px;
-    height: 97px;
-    float: left;
-    background-image: url(../Imagem/macabro.jpg);
-    font-size: 0;
-    border-radius: 10px;
-}
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
 
-.cabecalho form {
-    width: 100%;
-    float: right;
-    margin-top: 0;
-}
+    .logo a {
+        width: 84px;
+        height: 97px;
+        float: left;
+        background-image: url(../Imagem/macabro.jpg);
+        font-size: 0;
+        border-radius: 10px;
+    }
 
-.cabecalho input[type="text"] {
-    width: 80%;
-    float: left;
-    padding: 15px 10px;
-    border-radius: 10px 0px 0px 10px;
-    margin-top:0;
-    margin-bottom: 50px;
-}
+    .cabecalho form {
+        width: 100%;
+        float: right;
+        margin-top: 0;
+    }
 
-.cabecalho button {
-    width: 20%;
-    float: right;
-    padding: 15px 10px;
-    border-radius: 0px 10px 10px 0px;
-    background-color: #4F32F0;
-    color: white;
-    cursor: pointer;
-    margin-top: 0;
-    margin-bottom: 50px;
-}
+    .cabecalho input[type="text"] {
+        width: 80%;
+        float: left;
+        padding: 15px 10px;
+        border-radius: 10px 0px 0px 10px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
 
-.cabecalho h2{
-    font-family: 'Teko', sans-serif;
-    float: left;
-    color: #fff;
-    width: 100%;
-    font-size: 6em;
-    margin-top: 3px;
-    margin-left: 25px;
-    text-align: center;
-}
+    .cabecalho button {
+        width: 20%;
+        float: right;
+        padding: 15px 10px;
+        border-radius: 0px 10px 10px 0px;
+        background-color: #4F32F0;
+        color: white;
+        cursor: pointer;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
 
-/* MENU */
+    .cabecalho h2 {
+        font-family: 'Teko', sans-serif;
+        float: left;
+        color: #fff;
+        width: 100%;
+        font-size: 6em;
+        margin-top: 3px;
+        margin-left: 25px;
+        text-align: center;
+    }
 
-.menu {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #111;
-    padding: 0;
-    margin-bottom: 25px;
-}
+    /* MENU */
 
-.menu ul{
-  justify-content: center;
-  display: flex;
-}
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #111;
+        padding: 0;
+        margin-bottom: 25px;
+    }
 
-.menu li {
+    .menu ul {
+        justify-content: center;
+        display: flex;
+    }
 
-    margin-top: 20px;
-    margin-bottom: 10px;
-    
-    
-}
+    .menu li {
 
-.menu li a {
-    color: #9d9d9d;
-    padding: 18px;
-}
+        margin-top: 20px;
+        margin-bottom: 10px;
 
-.menu li a:hover {
-    color: #fff;
-    background-color: #4F32F0;
-    max-height: 100%;
-    transition: 0.5s;
-}
 
-/* SOCIAL ICONS */
+    }
 
-.social-icons {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 11pt;
-    justify-content: center;
-}
+    .menu li a {
+        color: #9d9d9d;
+        padding: 18px;
+    }
 
-.social-icons a {
-    
-    color: #fff;
-    float: left;
-    margin-left: 25px;
-}
+    .menu li a:hover {
+        color: #fff;
+        background-color: #4F32F0;
+        max-height: 100%;
+        transition: 0.5s;
+    }
 
-.social-icons .fa-facebook-square:hover {
-    color: #3b5998;
-}
+    /* SOCIAL ICONS */
 
-.social-icons .fa-twitter-square:hover {
-    color: #1DA1F2;
-}
+    .social-icons {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 11pt;
+        justify-content: center;
+    }
 
-.social-icons .fa-instagram:hover {
-    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
+    .social-icons a {
 
-.social-icons .fa-envelope:hover {
-    color: yellow;
-}
+        color: #fff;
+        float: left;
+        margin-left: 25px;
+    }
 
-.social-icons .fa-google:hover {
-    color: #FF0000;
-}
+    .social-icons .fa-facebook-square:hover {
+        color: #3b5998;
+    }
 
-.social-icons .fa-youtube-square:hover {
-    color: #FF0000;
-}
+    .social-icons .fa-twitter-square:hover {
+        color: #1DA1F2;
+    }
 
-.social-icons .fa-linkedin:hover {
-    color: #0077b5;
-}
-#principal{
-    width: 100%;
-    float: left;
-    padding: 90px 10px;
-}
+    .social-icons .fa-instagram:hover {
+        background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
 
-#principal  h1{
-    text-align: center;
-    font-size: 40pt;
-}
+    .social-icons .fa-envelope:hover {
+        color: yellow;
+    }
 
-#principal p{
-    font-size: 13pt;
-    text-align: center;
-    color:rgba(79, 50, 240, 1);
-    font-family: 'Bebas Neue', cursive;
-}
-/* Formulario  */
-#principal form{
-    float: left;
-    width: 100%;
-    
-}
+    .social-icons .fa-google:hover {
+        color: #FF0000;
+    }
 
-#forms{
-    margin-top: 100px;
-    text-align: center;
-}
+    .social-icons .fa-youtube-square:hover {
+        color: #FF0000;
+    }
 
-#formulario{
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    margin-bottom:5%;
-    font-size: 13pt;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
+    .social-icons .fa-linkedin:hover {
+        color: #0077b5;
+    }
 
-#formulario2{
-    margin-right: 0px;
-    border-bottom: 1px solid #4F32F0;
-    width: 100%;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 7px;
-}
+    #principal {
+        width: 100%;
+        float: left;
+        padding: 90px 10px;
+    }
 
-#formulario::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;    
-}
+    #principal h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
 
-#formulario2::placeholder{
-    font-size: 14pt;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-}
+    #principal p {
+        font-size: 13pt;
+        text-align: center;
+        color: rgba(79, 50, 240, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
 
-#formulario:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;
-}
+    /* Formulario  */
+    #principal form {
+        float: left;
+        width: 100%;
+    }
 
-#formulario2:focus{
-    background-color:rgba(79, 50, 240, 0.3) ;
-    transition: 1s;    
-}
+    #forms {
+        margin-top: 100px;
+        text-align: center;
+    }
 
-#comentario{
-    width: 100%;
-    border: 1px solid #4F32F0;
-    margin-top: 40px;
-    height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-}
+    #formulario {
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        margin-bottom: 5%;
+        font-size: 13pt;
 
-#principal button{
-    margin-top: 50px;
-    margin: 20px auto;
-    padding:10px 30px;
-    background-color: #4e32f0be;
-    color: white;
-    cursor: pointer;
-}
-#principal button:hover{
-    background-color: #2f0df3;
-    transition: 1s;
-}
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
 
-/*Section Ouvidoria */
-#ouvidoria{
-    text-align: center;
-    padding:50px;
-    float: left;
-    width: 100%;
-}
+    #formulario2 {
+        margin-right: 0px;
+        border-bottom: 1px solid #4F32F0;
+        width: 100%;
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px;
+    }
 
-#ouvidoria h2{
-    font-size: 40pt;
-}
+    #formulario::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
 
-#ouvidoria img{
-    width:40%;
-    margin: auto 33%;
-    
-}
+    #formulario2::placeholder {
+        font-size: 14pt;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: black;
+    }
 
-#info-ouvi{
-    width: 100%;
-    padding: 50px 20%;
-    text-align: center;
+    #formulario:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
 
-    
-}
-#info-ouvi h3{
-    font-size: 20pt;
-    color:#4f32f0 ;
-    margin-bottom: 10px;
+    #formulario2:focus {
+        background-color: rgba(79, 50, 240, 0.3);
+        transition: 1s;
+    }
 
-}
+    #comentario {
+        width: 100%;
+        border: 1px solid #4F32F0;
+        margin-top: 40px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
 
-#info-ouvi a{
-    padding: 10px;
-    font-size: 18pt;
-    color:black;
-    font-family: 'Bebas Neue', cursive;
+    #principal button {
+        margin-top: 50px;
+        margin: 20px auto;
+        padding: 10px 30px;
+        background-color: #4e32f0be;
+        color: white;
+        cursor: pointer;
+    }
 
-}
+    #principal button:hover {
+        background-color: #2f0df3;
+        transition: 1s;
+    }
 
-    
+    /*Section Ouvidoria */
+    #ouvidoria {
+        text-align: center;
+        padding: 50px;
+        float: left;
+        width: 100%;
+    }
 
+    #ouvidoria h2 {
+        font-size: 40pt;
+    }
+
+    #ouvidoria img {
+        width: 40%;
+        margin: auto 33%;
+    }
+
+    #info-ouvi {
+        width: 100%;
+        padding: 50px 20%;
+        text-align: center;
+    }
+
+    #info-ouvi h3 {
+        font-size: 20pt;
+        color: #4f32f0;
+        margin-bottom: 10px;
+    }
+
+    #info-ouvi a {
+        padding: 10px;
+        font-size: 18pt;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .avaliacao {
+        border: none;
+    }
 }
